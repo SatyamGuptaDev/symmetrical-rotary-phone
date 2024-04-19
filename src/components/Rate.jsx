@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import "./Rate.css"
+import { FaAngleDown } from "react-icons/fa";
+import { FaAngleUp } from "react-icons/fa";
 
 const Rate = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,7 +30,10 @@ const Rate = () => {
         <p>$3.529020 USD</p>
         <p className='redColor'>-2.32%</p>
       </div>
-      <div className='centreIcon'  onClick={toggleIcon}>{isOpen ? "DownIcon" : "OpenIcon"}</div>
+      
+      <div className='centreIcon'  onClick={toggleIcon}>{isOpen ? <FaAngleDown />
+ : <FaAngleUp /> }</div>
+
       {isOpen && (
         <div className='additionalButtons'>
           <div className='green'>Buy</div>
