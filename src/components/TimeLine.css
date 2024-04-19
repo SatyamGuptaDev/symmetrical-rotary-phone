@@ -4,13 +4,17 @@
   padding: 0%;
 margin: 0%;
     width: 100%;
+
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.027);
+
 }
 
 .timeline p {
   cursor: pointer;
-  padding: 7px;
-  padding-top: 5px;
-    padding-bottom: 5px;
+  padding: 8px;
+  padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: smaller;
 }
 
 .timeline p.selected {

@@ -27,6 +27,9 @@
     font-size: 15px;
     font-weight: 600;
     color: rgba(0, 0, 0, 0.725);
+
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.027);
+
 }
 
 .rate-body img{
