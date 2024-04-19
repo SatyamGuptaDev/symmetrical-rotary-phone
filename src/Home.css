@@ -272,6 +272,17 @@ body {
 
 }
 
+.home-timeline{
+    width: 260px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0%;
+    margin-top: -20px;
+}
 
 .mobile-content{
     display: flex;
@@ -285,9 +296,6 @@ body {
     /* make scroll bar invisible */
     scrollbar-width: none;
     -ms-overflow-style: none;
-    
-
-
 
 
 }
