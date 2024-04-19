@@ -1,7 +1,28 @@
 .banner {
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    background-color: rgba(255,255,255,1);
+    align-items: center;
 
+    padding-left: 8px;
+    padding-right: 8px;
+
+
+    
+
+}
+
+.banner button{
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.389);
+    border: none;
+    font-size: 15px;
+
+
+}
+
+.banner span{
+    color: rgba(0, 0, 0, 0.586);
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 5px;
 }

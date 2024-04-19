@@ -42,7 +42,11 @@ body {
     display: flex  ;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
+
+
+
+
 
 
 }
@@ -94,10 +98,10 @@ body {
 .upper-part{
 
     background-color: rgba(245,247,250,1);
-    width: 140px; 
-    height: 30px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
+    width: 145px; 
+    height: 35px;
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 18px;
     position: absolute;
     top: 10px;
     left: 50%;
@@ -130,14 +134,16 @@ body {
 
 .upper-header {
 
-    background-color: rgba(255,255,255,1);
+
 
     width: 100%;
-    height: 30px;
-    border-top-right-radius: 40px;
-    border-top-left-radius: 40px;
+    height: 25px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+
+
     
-    padding-bottom: 0;
+
 
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
@@ -151,16 +157,19 @@ body {
 
 .time {
     color: black;
-    width: 70px;
+    width: 65px;
+    
 
 
 
-    font-size: 13px;
-
-    padding-bottom: 1px;
+    font-size: 10px;
 
 
-    font-weight: 700;
+    padding-top: 5px;
+
+
+
+    font-weight: 600;
 
     display: flex;
     justify-content: center;
@@ -175,7 +184,7 @@ body {
 
 .icons{
     color: black;
-    width: 70px;
+    width: 65px;
 
 
     display: flex;
@@ -183,12 +192,15 @@ body {
     justify-content: center;
     align-items: flex-end;
 
-    gap: 4px;
+
+
 
     
-    padding-right: 5px;
-    padding-left: 5px;
+    padding-right: 3px;
+    padding-left: 7px;
+
     padding-bottom: 3px;
+
 
 
 
@@ -196,31 +208,61 @@ body {
 
 .icons .icon {
     color: black;
-    font-size: 12px;
+    height: 8px;
+    margin-left: -2px;
 }
 
-/* icon first child */
-.icons .icon:first-child {
-    padding-left: 5px;
-}
 
+
+.header-parent{
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+
+    width: 260px;
+
+    height: fit-content;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+    margin-top: 10px;
+
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.027);
+
+
+
+}
 
 .header{
 
-    margin-top: 15px;
-    width: 90%;
+    margin-top: 20px;
+    width: 100%;
     height: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-bottom: 0;
+
 
 
 }
+
+
 .navbar{
+
+    background-color: white;
+
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    margin-bottom: 10px;
+
+
     position: absolute;
-    bottom: 0%;
-    width: 90%;
-    height: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
+    bottom: 10px;
+
+    width: 260px;
+
 
 }

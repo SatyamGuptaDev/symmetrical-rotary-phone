@@ -13,15 +13,13 @@ const Home = () => {
         {/* smartphone */}
         <div className="outer-border">
           <div className="display">
-
-            <div style={{backgroundColor: "rgba(255,255,255,1)", width: "96%",
-            marginTop: '10px', borderTopLeftRadius: '40px', borderTopRightRadius: '40px'}}>
+            <div className="header-parent">
               <div className="upper-header">
                 <div className="time">9:45</div>
 
                 <div className="icons">
-                  <FaWifi className="icon" />
                   <GiNetworkBars className="icon" />
+                  <FaWifi className="icon" />
                   <FaBatteryFull className="icon" />
                 </div>
               </div>
@@ -32,6 +30,7 @@ const Home = () => {
             </div>
 
 
+            
           </div>
 
           <div className="power-button"></div>

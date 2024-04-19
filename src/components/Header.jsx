@@ -5,9 +5,9 @@ import './Header.css'
 const Header = () => {
   return (
     <div className='banner'>
-        <span><FaChevronLeft /></span>
-        <span>BitCoin Wallet</span>
-        <span><FaEllipsisV /></span>
+        <button><FaChevronLeft  /></button>
+        <span>Bitcoin Wallet</span>
+        <button><FaEllipsisV /></button>
     </div>
   )
 }
