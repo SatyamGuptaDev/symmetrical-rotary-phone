@@ -1,0 +1,13 @@
+.timeline{
+    display: flex;
+    justify-content: space-between;
+    }
+    .timeline p{
+        cursor: pointer;
+        padding: 10px;
+    }
+    .timeline p.selected {
+        color: white;
+        background-color:grey;
+        border-radius: 20px;
+      }

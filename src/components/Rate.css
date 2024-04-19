@@ -1,0 +1,96 @@
+.rate-h1{
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.rate-h1 h1{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+
+
+.rate-body{
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.725);
+}
+
+.rate-body img{
+    filter: brightness(1.2);
+}
+
+.bannerFirst{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bannerSecond{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.centreIcon{
+    text-align: center;
+    cursor: pointer;
+}
+.additionalButtons{
+    display: flex;
+    justify-content: space-around;
+}
+.additionalButtons div{
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border-radius: 10px;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+
+
+.usdrate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0; 
+    margin-top: -12px;
+    padding-left: 10px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+/* usdrate first child */
+.usdrate p:first-child{
+    color: rgba(0, 0, 0, 0.464);
+}
+
+.redColor{
+    color: white;
+    background-color: red;
+    padding: 7px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

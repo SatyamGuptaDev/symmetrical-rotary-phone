@@ -42,7 +42,7 @@ body {
     display: flex  ;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+
 
 
 
@@ -263,6 +263,31 @@ body {
     bottom: 10px;
 
     width: 260px;
+
+
+}
+
+.buy-sell-home{
+    width: 260px;
+
+}
+
+
+.mobile-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* scrollable */
+    overflow-y: scroll;
+    height: 70%;
+
+    /* make scroll bar invisible */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    
+
+
 
 
 }

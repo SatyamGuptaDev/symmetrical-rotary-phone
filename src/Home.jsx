@@ -5,6 +5,10 @@ import { GiNetworkBars } from "react-icons/gi";
 import { FaBatteryFull } from "react-icons/fa";
 import DownNavbar from "./components/NavBar.jsx";
 import Header from "./components/Header.jsx";
+import BuySell from "./components/BuySell.jsx";
+import Rate from "./components/Rate.jsx";
+import TimeLine from "./components/Timeline.jsx";
+import { Graph } from "./components/Chart.jsx";
 
 const Home = () => {
   return (
@@ -29,8 +33,27 @@ const Home = () => {
               </div>
             </div>
 
+            <div className="mobile-content">
+              <div className="home-rate">
+                <Rate />
+              </div>
 
-            
+              <div className="home-timeline">
+                <TimeLine />
+              </div>
+
+              <div className="chart">
+                <Graph />
+              </div>
+
+              <div className="buy-sell-home">
+                <BuySell />
+              </div>
+            </div>
+
+            <div className="navbar">
+              <DownNavbar />
+            </div>
           </div>
 
           <div className="power-button"></div>
@@ -41,9 +64,6 @@ const Home = () => {
           <div className="upper-part">
             <div className="camera"></div>
             <div className="speaker"></div>
-          </div>
-          <div className="navbar">
-            <DownNavbar />
           </div>
         </div>
       </div>
